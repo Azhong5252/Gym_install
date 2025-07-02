@@ -4,7 +4,7 @@
 
 ## 安裝步驟
 
-# 建立 Conda 環境（Python 3.10）
+建立 Conda 環境（Python 3.10）
 ```bash
 conda create -n your_env_name python==3.10 --yes
 ```
