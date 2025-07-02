@@ -1,44 +1,25 @@
-\# 環境安裝指引
-
-
+# 環境安裝指引
 
 本專案使用 Conda 建立 Python 環境，並安裝必要的套件與 Gymnasium 環境。
 
-
-
-\## 安裝步驟
-
-
+## 安裝步驟
 
 ```bash
+# 建立 Conda 環境（Python 3.10）
+conda create -n your_env_name python==3.10 --yes
 
-\# 建立 Conda 環境（Python 3.10）
+# 啟動環境
+conda activate your_env_name
 
-conda create -n your\_env\_name python==3.10 --yes
-
-
-
-\# 啟動環境
-
-conda activate your\_env\_name
-
-
-
-\# 安裝 Numpy
-
+# 安裝 Numpy
 pip install numpy==1.24.4
 
+# 安裝 Gymnasium 及所需環境
+# 例如安裝 mujoco 環境
+pip install gymnasium[mujoco]
 
+# 或者安裝 classic-control 環境
+pip install gymnasium[classic-control]
 
-\# 安裝 Gymnasium 及所需環境
-
-\# 例如安裝 mujoco 環境
-
-pip install gymnasium\[mujoco]
-
-
-
-\# 或者安裝 classic-control 環境
-
-pip install gymnasium\[classic-control]
-
+#執行範例程式碼
+python example_code.py
