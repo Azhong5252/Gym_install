@@ -16,8 +16,7 @@ conda activate your_env_name
 ```bash
 pip install numpy==1.24.4
 ```
-#安裝 Gymnasium 及所需環境
-例如安裝 mujoco 環境
+安裝 Gymnasium 及所需環境，例如安裝 mujoco 環境
 ```bash
 pip install gymnasium[mujoco]
 ```
