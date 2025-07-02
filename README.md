@@ -8,16 +8,16 @@
 ```bash
 conda create -n your_env_name python==3.10 --yes
 ```
-# 啟動環境
+啟動環境
 ```bash
 conda activate your_env_name
 ```
-# 安裝 Numpy
+安裝 Numpy
 ```bash
 pip install numpy==1.24.4
 ```
-# 安裝 Gymnasium 及所需環境
-# 例如安裝 mujoco 環境
+##安裝 Gymnasium 及所需環境
+例如安裝 mujoco 環境
 ```bash
 pip install gymnasium[mujoco]
 ```
