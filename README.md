@@ -24,7 +24,7 @@ pip install gymnasium[mujoco]
 ```bash
 pip install gymnasium[classic-control]
 ```
-執行範例程式碼
+執行範例程式碼，mujoco 的Humanoid環境為範例
 ```bash
 python example_code.py
 ```
